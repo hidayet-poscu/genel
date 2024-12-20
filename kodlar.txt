@@ -1,0 +1,27 @@
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name DisableRegistryTools -Value 0
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name DisableTaskMgr -Value 0
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableTaskMgr /f
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /f
+
+cmd
+
+bu kod açtı
+
+
+
+
+# 1. Görev Zamanlayıcı'dan görevi kaldır
+schtasks /delete /tn "OgretmenAsistan" /f
+
+# 2. RunServices'dan kaydı kaldır
+Remove-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\RunServices" -Name "ÖğretmenAsistan" -ErrorAction SilentlyContinue
+
+# 3. Task Manager ve Registry Editor kısıtlamalarını kaldır
+Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name "DisableTaskMgr" -Value 0 -ErrorAction SilentlyContinue
+Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name "DisableRegistryTools" -Value 0 -ErrorAction SilentlyContinue
+
+# 4. (Opsiyonel) Uygulama dosyalarını silmek isterseniz
+Remove-Item -Path "$env:windir\et_asistan.exe" -Force -ErrorAction SilentlyContinue
