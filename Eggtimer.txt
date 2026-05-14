@@ -1,0 +1,85 @@
+# Privacy Policy
+
+Last updated: 14 May 2026
+
+This Privacy Policy describes how the Yumurta (Egg Timer) mobile application handles user data.
+
+## 1. Data Controller
+
+Application: Yumurta (Egg Timer)
+Developer/Publisher: Eslima Software
+Contact: eslimasoft6@gmail.com
+
+## 2. Scope
+
+This policy applies to the Yumurta mobile application and related services used by the app.
+
+## 3. Data We Collect
+
+Yumurta is designed to work without creating an account.
+The app does not directly request or store personal information such as name, email, phone number, or address within the app flow.
+
+However, the following data may be processed by third-party service providers used by the app:
+
+- Device and app metadata (for example app version, operating system, device model)
+- Advertising identifiers and ad interaction signals
+- Basic diagnostic or crash information
+
+## 4. Third-Party Services
+
+The app may use third-party SDKs/services, including:
+
+- Google Mobile Ads (AdMob)
+
+These services may collect and process data according to their own privacy policies and legal obligations.
+
+Google Privacy Policy:
+https://policies.google.com/privacy
+
+## 5. Notifications
+
+Yumurta may use local notifications for timer-related reminders.
+These notifications are generated on-device and are not used to track users.
+
+## 6. How We Use Data
+
+Data processed via third-party services may be used for:
+
+- Showing ads in the application
+- Measuring ad performance and preventing fraud
+- Improving app stability and reliability
+
+## 7. Data Sharing
+
+We do not sell users' personal data.
+Data may be shared with third-party providers only as required to deliver app functionality (for example ad serving and technical diagnostics).
+
+## 8. Data Retention
+
+Yumurta does not maintain a user account database.
+Any retention periods for data collected by third-party SDKs are governed by those providers' policies.
+
+## 9. Children's Privacy
+
+The app is not specifically directed to children under 13.
+If you believe a child has provided personal data through third-party services, please contact us so we can review and take appropriate action.
+
+## 10. International Transfers
+
+Third-party providers may process data on servers located in different countries.
+Such processing is subject to the provider's legal safeguards.
+
+## 11. Your Rights
+
+Depending on your jurisdiction, you may have rights such as access, deletion, objection, or restriction regarding personal data processed by third parties.
+For requests, contact us and/or the relevant third-party provider.
+
+## 12. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.
+Updated versions will be published with a revised "Last updated" date.
+
+## 13. Contact
+
+For privacy questions:
+eslimasoft6@gmail.com
